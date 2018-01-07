@@ -10,7 +10,7 @@ int		main(int argc, char **argv)
 
 	if (argc > 1)
 	{
-		i = 0;
+		i = 1;
 		while (i < argc)
 		{
 			read_file = write_file_to_variable(argv[i]);

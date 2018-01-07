@@ -10,7 +10,7 @@ int		get_end_of_printf(char *str)
 
 int 	printf_detection(char *str)
 {
-	if (*(str + 0) == 'p' && *(str + 1) == 'r' && *(str + 2) == 'i' && *(str + 3) == 'n' && *(str + 4) == 't' && *(str + 5) == 'f')
+	if (*(str + 0) == 'p' && *(str + 1) == 'r' && *(str + 2) == 'i' && *(str + 3) == 'n' && *(str + 4) == 't' && *(str + 5) == 'f' && *(str + 6) == '(')
 		return (1);
 	else
 		return (0);
