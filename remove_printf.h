@@ -15,6 +15,5 @@
 #include "read_functions.c"
 #include "write_functions.c"
 #include "string_functions.c"
-// create a Makefile
 
 #endif
