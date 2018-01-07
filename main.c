@@ -19,6 +19,7 @@ int		main(int argc, char **argv)
 			name = get_name(argv[i]);
 			ret = remove(name);
 			write_to_file(name, result);
+			free(result);
 			free(name);
 			i++;
 		}
