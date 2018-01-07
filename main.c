@@ -8,9 +8,9 @@ int		main(int argc, char **argv)
 	char	*name;
 	char	*result;
 
-	i = 0;
 	if (argc > 1)
 	{
+		i = 0;
 		while (i < argc)
 		{
 			read_file = write_file_to_variable(argv[i]);
