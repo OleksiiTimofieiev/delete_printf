@@ -7,7 +7,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
-// check for the memory leaks
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/uio.h>
