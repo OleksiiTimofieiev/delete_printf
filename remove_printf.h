@@ -16,5 +16,6 @@
 #include "write_functions.c"
 #include "string_functions.c"
 // # include "./libft/libft.h"
+// create a Makefile
 
 #endif
