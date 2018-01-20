@@ -31,7 +31,7 @@ char	*printf_removal(char *str)
 			end = get_end_of_printf(tmp);
 			while (i < end)
 			{
-				*tmp = '+';
+				*tmp = '@';
 				tmp++;
 				i++;
 			}
@@ -48,7 +48,7 @@ int		size_withour_printf(char *str)
 	count = 0;
 	while (*str)
 	{
-		if (*str != '+')
+		if (*str != '@')
 			count++;
 		str++;
 	}
@@ -64,7 +64,7 @@ char	*copy_without_printf(char *str)
 	res = (char*)malloc(sizeof(char) * (size_withour_printf(str) + 1));
 	while (*str)
 	{
-		if (*str != '+')
+		if (*str != '@')
 		{
 			res[i] = *str;
 			i++;
